@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"Hello": f"You are in {env['MY_VARIABLE']}"}
+    return {"Hello": f"Githbu changes - You are in {env['MY_VARIABLE']}"}
